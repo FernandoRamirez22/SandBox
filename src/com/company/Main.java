@@ -1,11 +1,31 @@
 package com.company;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+
+        ArrayList<String> myList = new ArrayList<>();
+
+
+//Anonymous class
+        Chicken Buk = new Chicken() {
+            @Override
+            public void cluck() {
+                System.out.println("Say Duh Hello, BUk BUk ");
+            }
+        };
+
 
         //Creating objects for classes
+
+        Test test1 = new Test();
+        test1.method();
+
+        Car driving = new Car();
+        driving.drive();
 
             //Object for Vegetables class and call
              Vegetables vegetableObject = new Vegetables();
